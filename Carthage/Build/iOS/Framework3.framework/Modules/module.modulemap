@@ -1,0 +1,10 @@
+framework module Framework3 {
+  umbrella header "Framework3.h"
+
+  export *
+  module * { export * }
+}
+
+module Framework3.Swift {
+    header "Framework3-Swift.h"
+}
