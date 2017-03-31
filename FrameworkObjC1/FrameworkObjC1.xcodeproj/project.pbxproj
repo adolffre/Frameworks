@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A08533B1E8E966F00CD0D95 /* Framework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A08533A1E8E966F00CD0D95 /* Framework1.framework */; };
 		3A2667EE1E8E511D0086E95F /* FrameworkObjC1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2667E41E8E511D0086E95F /* FrameworkObjC1.framework */; };
 		3A2667F31E8E511D0086E95F /* FrameworkObjC1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2667F21E8E511D0086E95F /* FrameworkObjC1Tests.m */; };
 		3A2667F51E8E511D0086E95F /* FrameworkObjC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2667E71E8E511D0086E95F /* FrameworkObjC1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A2668001E8E51DC0086E95F /* TestObjC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2667FE1E8E51DC0086E95F /* TestObjC1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A2668011E8E51DC0086E95F /* TestObjC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2667FF1E8E51DC0086E95F /* TestObjC1.m */; };
-		3A26680F1E8E6A110086E95F /* Framework3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A26680E1E8E6A110086E95F /* Framework3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A08533A1E8E966F00CD0D95 /* Framework1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Framework1.framework; path = "../../../Library/Developer/Xcode/DerivedData/Frameworks-bdppoywcztiqnafdzrexsiebvezk/Build/Products/Debug-iphonesimulator/Framework1.framework"; sourceTree = "<group>"; };
 		3A2667E41E8E511D0086E95F /* FrameworkObjC1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkObjC1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2667E71E8E511D0086E95F /* FrameworkObjC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkObjC1.h; sourceTree = "<group>"; };
 		3A2667E81E8E511D0086E95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		3A2667F41E8E511D0086E95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2667FE1E8E51DC0086E95F /* TestObjC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjC1.h; sourceTree = "<group>"; };
 		3A2667FF1E8E51DC0086E95F /* TestObjC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjC1.m; sourceTree = "<group>"; };
-		3A26680E1E8E6A110086E95F /* Framework3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Framework3.framework; path = "../../../Library/Developer/Xcode/DerivedData/Frameworks-bdppoywcztiqnafdzrexsiebvezk/Build/Products/Debug-iphonesimulator/Framework3.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A26680F1E8E6A110086E95F /* Framework3.framework in Frameworks */,
+				3A08533B1E8E966F00CD0D95 /* Framework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		3A2668021E8E541F0086E95F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A26680E1E8E6A110086E95F /* Framework3.framework */,
+				3A08533A1E8E966F00CD0D95 /* Framework1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
