@@ -10,7 +10,7 @@
 		3A2667EE1E8E511D0086E95F /* FrameworkObjC1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2667E41E8E511D0086E95F /* FrameworkObjC1.framework */; };
 		3A2667F31E8E511D0086E95F /* FrameworkObjC1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2667F21E8E511D0086E95F /* FrameworkObjC1Tests.m */; };
 		3A2667F51E8E511D0086E95F /* FrameworkObjC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2667E71E8E511D0086E95F /* FrameworkObjC1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A2668001E8E51DC0086E95F /* TestObjC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2667FE1E8E51DC0086E95F /* TestObjC1.h */; };
+		3A2668001E8E51DC0086E95F /* TestObjC1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2667FE1E8E51DC0086E95F /* TestObjC1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A2668011E8E51DC0086E95F /* TestObjC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2667FF1E8E51DC0086E95F /* TestObjC1.m */; };
 		3A26680F1E8E6A110086E95F /* Framework3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A26680E1E8E6A110086E95F /* Framework3.framework */; };
 /* End PBXBuildFile section */
@@ -111,8 +111,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2668001E8E51DC0086E95F /* TestObjC1.h in Headers */,
 				3A2667F51E8E511D0086E95F /* FrameworkObjC1.h in Headers */,
+				3A2668001E8E51DC0086E95F /* TestObjC1.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
