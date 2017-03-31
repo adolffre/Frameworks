@@ -1,0 +1,6 @@
+framework module FrameworkObjC1 {
+  umbrella header "FrameworkObjC1.h"
+
+  export *
+  module * { export * }
+}

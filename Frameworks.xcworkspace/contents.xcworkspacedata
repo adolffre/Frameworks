@@ -10,4 +10,7 @@
    <FileRef
       location = "group:Framework3/Framework3.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:FrameworkObjC1/FrameworkObjC1.xcodeproj">
+   </FileRef>
 </Workspace>
