@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2668221E8E932F0086E95F /* Test1.swift in Headers */ = {isa = PBXBuildFile; fileRef = 3A62F5341E8D5D860036E8E7 /* Test1.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A62F5241E8D5D670036E8E7 /* Framework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A62F51A1E8D5D670036E8E7 /* Framework1.framework */; };
 		3A62F5291E8D5D670036E8E7 /* Framework1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62F5281E8D5D670036E8E7 /* Framework1Tests.swift */; };
 		3A62F52B1E8D5D670036E8E7 /* Framework1.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A62F51D1E8D5D670036E8E7 /* Framework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,6 +98,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A62F52B1E8D5D670036E8E7 /* Framework1.h in Headers */,
+				3A2668221E8E932F0086E95F /* Test1.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +406,7 @@
 				3A62F5301E8D5D670036E8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A62F5311E8D5D670036E8E7 /* Build configuration list for PBXNativeTarget "Framework1Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +415,7 @@
 				3A62F5331E8D5D670036E8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
