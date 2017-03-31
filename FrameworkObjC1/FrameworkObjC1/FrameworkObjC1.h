@@ -15,4 +15,5 @@ FOUNDATION_EXPORT const unsigned char FrameworkObjC1VersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FrameworkObjC1/PublicHeader.h>
 
+#import <FrameworkObjC1/TestObjC1.h>
 

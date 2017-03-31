@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double Framework3VersionNumber;
 FOUNDATION_EXPORT const unsigned char Framework3VersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Framework3/PublicHeader.h>
-
-
