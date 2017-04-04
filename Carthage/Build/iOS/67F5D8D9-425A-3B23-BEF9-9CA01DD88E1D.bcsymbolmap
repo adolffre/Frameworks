@@ -1,0 +1,35 @@
+BCSymbolMap Version: 2.0
+_rt_swift_allocObject
+_rt_swift_release
+_rt_swift_getInitializedObjCClass
+_rt_swift_slowAlloc
+_rt_swift_slowDealloc
+__TMfC10Framework25Test2
+__TMRfC10Framework25Test2
+__swift_FORCE_LOAD_$_swiftUIKit_$_Framework2
+__swift_FORCE_LOAD_$_swiftCoreImage_$_Framework2
+__swift_FORCE_LOAD_$_swiftDarwin_$_Framework2
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_Framework2
+__swift_FORCE_LOAD_$_swiftDispatch_$_Framework2
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_Framework2
+__swift_FORCE_LOAD_$_swiftFoundation_$_Framework2
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_Framework2
+___swift_reflection_version
+l_OBJC_LABEL_PROTOCOL_$__TtPs9AnyObject_
+l_OBJC_PROTOCOL_REFERENCE_$__TtPs9AnyObject_
+_objc_classes
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+-emit-bc /Users/adolf.jurgens/Developer/Frameworks/Framework2/Framework2/Test2.swift -target arm64-apple-ios10.2 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -I /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Products/Release-iphoneos -F /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Products/Release-iphoneos -g -import-underlying-module -module-cache-path /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/ModuleCache -serialize-debugging-options -Xcc -I/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Framework2-generated-files.hmap -Xcc -I/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Framework2-own-target-headers.hmap -Xcc -I/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Framework2-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Framework2-project-headers.hmap -Xcc -I/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Products/Release-iphoneos/include -Xcc -I/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/DerivedSources/arm64 -Xcc -I/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/DerivedSources -Xcc -ivfsoverlay -Xcc /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/unextended-module-overlay.yaml -Xcc -working-directory/Users/adolf.jurgens/Developer/Frameworks/Framework2 -emit-module-doc-path /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Objects-normal/arm64/Framework2.swiftdoc -O -parse-as-library -module-name Framework2 -emit-module-path /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Objects-normal/arm64/Framework2.swiftmodule -emit-objc-header-path /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Objects-normal/arm64/Framework2-Swift.h -serialize-diagnostics-path /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Objects-normal/arm64/Test2.dia -emit-dependencies-path /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Objects-normal/arm64/Test2.d -num-threads 8 -o /Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/Objects-normal/arm64/Test2.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/adolf.jurgens/Developer/Frameworks/Framework2
+Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)
+/Users/adolf.jurgens/Developer/Frameworks/Framework2/Framework2/Test2.swift
+get_field_types_Test2
+Test2.swift
+/Users/adolf.jurgens/Developer/Frameworks/Framework2/Framework2
+deinit
+test
+_TZFSSoi1pfTSSSS_SS
+_TMaC10Framework25Test2
+init
+/Users/adolf.jurgens/Library/Developer/Xcode/DerivedData/Frameworks-eyjyqkaemabrbebdemqcdxnbwqdg/Build/Intermediates/Framework2.build/Release-iphoneos/Framework2.build/DerivedSources/Framework2_vers.c
