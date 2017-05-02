@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5071481EB8D82600CBEF2D /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5071471EB8D82600CBEF2D /* Networking.framework */; };
 		3A62F54A1E8D5DAB0036E8E7 /* Framework2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A62F5401E8D5DAB0036E8E7 /* Framework2.framework */; };
 		3A62F54F1E8D5DAB0036E8E7 /* Framework2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62F54E1E8D5DAB0036E8E7 /* Framework2Tests.swift */; };
 		3A62F5511E8D5DAB0036E8E7 /* Framework2.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A62F5431E8D5DAB0036E8E7 /* Framework2.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E5071471EB8D82600CBEF2D /* Networking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Networking.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Products/Debug-iphonesimulator/Networking.framework"; sourceTree = "<group>"; };
 		3A62F5401E8D5DAB0036E8E7 /* Framework2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Framework2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A62F5431E8D5DAB0036E8E7 /* Framework2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Framework2.h; sourceTree = "<group>"; };
 		3A62F5441E8D5DAB0036E8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5071481EB8D82600CBEF2D /* Networking.framework in Frameworks */,
 				3A62F5841E8D5E610036E8E7 /* Framework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +99,7 @@
 		3A62F5821E8D5E600036E8E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E5071471EB8D82600CBEF2D /* Networking.framework */,
 				3A62F5831E8D5E610036E8E7 /* Framework1.framework */,
 			);
 			name = Frameworks;

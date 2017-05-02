@@ -7,6 +7,7 @@
 //
 
 import Framework1
+import Networking
 
 public class Test2 {
     public init() {}
@@ -15,6 +16,15 @@ public class Test2 {
         let testFramework1 = Test1()
         
         return testFramework1.test() + " test2"
+    }
+    
+    public func testNetworking () {
+        let requestHandler = VCRequestHandler.defaultRequestHandler(with: VCRequestHandlerParameters.init())
+        requestHandler.executeRequestSuccess({ (response) in
+            
+        }) { (error) in
+            
+        }
     }
 }
 
