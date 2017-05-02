@@ -1,0 +1,31 @@
+BCSymbolMap Version: 2.0
+_rt_swift_allocObject
+_rt_swift_getInitializedObjCClass
+_rt_swift_slowAlloc
+_rt_swift_slowDealloc
+__TMfC10Framework15Test1
+__TMRfC10Framework15Test1
+__swift_FORCE_LOAD_$_swiftUIKit_$_Framework1
+__swift_FORCE_LOAD_$_swiftCoreImage_$_Framework1
+__swift_FORCE_LOAD_$_swiftDarwin_$_Framework1
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_Framework1
+__swift_FORCE_LOAD_$_swiftDispatch_$_Framework1
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_Framework1
+__swift_FORCE_LOAD_$_swiftFoundation_$_Framework1
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_Framework1
+___swift_reflection_version
+_objc_classes
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+-emit-bc /Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Framework1/Framework1/Test1.swift -target arm64-apple-ios10.2 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk -I /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Products/Release-iphoneos -F /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Products/Release-iphoneos -g -import-underlying-module -module-cache-path /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/ModuleCache -serialize-debugging-options -Xcc -I/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Framework1-generated-files.hmap -Xcc -I/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Framework1-own-target-headers.hmap -Xcc -I/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Framework1-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Framework1-project-headers.hmap -Xcc -I/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Products/Release-iphoneos/include -Xcc -I/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/DerivedSources/arm64 -Xcc -I/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/DerivedSources -Xcc -ivfsoverlay -Xcc /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/unextended-module-overlay.yaml -Xcc -working-directory/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Framework1 -emit-module-doc-path /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Objects-normal/arm64/Framework1.swiftdoc -O -parse-as-library -module-name Framework1 -emit-module-path /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Objects-normal/arm64/Framework1.swiftmodule -emit-objc-header-path /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Objects-normal/arm64/Framework1-Swift.h -serialize-diagnostics-path /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Objects-normal/arm64/Test1.dia -emit-dependencies-path /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Objects-normal/arm64/Test1.d -num-threads 4 -o /Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/Objects-normal/arm64/Test1.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Framework1
+Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Framework1/Framework1/Test1.swift
+get_field_types_Test1
+Test1.swift
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Framework1/Framework1
+deinit
+test
+_TMaC10Framework15Test1
+init
+/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Framework1.build/Release-iphoneos/Framework1.build/DerivedSources/Framework1_vers.c

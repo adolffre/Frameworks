@@ -1,0 +1,304 @@
+BCSymbolMap Version: 2.0
++[AbstractModel(MantleSerialization) JSONKeyPathsByPropertyKey]
++[AbstractModel(MantleSerialization) JSONTransformerForKey:]
+-[AbstractModel(MantleSerialization) description]
+-[AbstractModel(MantleSerialization) isEqual:]
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_NSCopying
+l_OBJC_LABEL_PROTOCOL_$_NSCopying
+l_OBJC_PROTOCOL_$_MTLModel
+l_OBJC_LABEL_PROTOCOL_$_MTLModel
+l_OBJC_PROTOCOL_$_MTLJSONSerializing
+l_OBJC_LABEL_PROTOCOL_$_MTLJSONSerializing
+l_OBJC_PROTOCOL_REFERENCE_$_MTLJSONSerializing
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/AbstractModel+MantleSerialization.m
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking
+-[VCRequestHandler appendAuthenticationHeadersIfNeeded]
+-[VCRequestHandler initWithHTTPRequestExecuter:parser:requestParameters:]
+-[VCRequestHandler initWithParameters:]
++[VCRequestHandler defaultRequestHandlerWithParameters:]
+-[VCRequestHandler retry]
+-[VCRequestHandler cancel]
+-[VCRequestHandler errorCodeShouldBeRetried:]
+-[VCRequestHandler callSuccessHanlderWithObject:]
+___49-[VCRequestHandler callSuccessHanlderWithObject:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[VCRequestHandler callFailureHanlderWithError:]
+___48-[VCRequestHandler callFailureHanlderWithError:]_block_invoke
+___copy_helper_block_.33
+___destroy_helper_block_.34
+-[VCRequestHandler fireNetworkEvent:]
+-[VCRequestHandler logError:withSerializedErrorData:]
+-[VCRequestHandler createNetworkEventForCurrentRequestWithResponseTime:parseTime:]
+-[VCRequestHandler executeRequestSuccess:failure:]
+___50-[VCRequestHandler executeRequestSuccess:failure:]_block_invoke
+___copy_helper_block_.147
+___destroy_helper_block_.148
+___50-[VCRequestHandler executeRequestSuccess:failure:]_block_invoke.151
+___copy_helper_block_.175
+___destroy_helper_block_.176
+-[VCRequestHandler handleRequestFailureWithError:]
+-[VCRequestHandler shouldRetryRequestWithError:]
+-[VCRequestHandler canPerformRetrySilentlyForError:]
+-[VCRequestHandler showRetryPromptForError:]
+___44-[VCRequestHandler showRetryPromptForError:]_block_invoke
+___copy_helper_block_.191
+___destroy_helper_block_.192
+-[VCRequestHandler performSilentRetry]
+___38-[VCRequestHandler performSilentRetry]_block_invoke
+___copy_helper_block_.198
+___destroy_helper_block_.199
+-[VCRequestHandler askUserIfShoulRetryRequest]
++[VCRequestHandler requestHandlersPool]
+___39+[VCRequestHandler requestHandlersPool]_block_invoke
+-[VCRequestHandler addToRequestHandlersPool]
+___44-[VCRequestHandler addToRequestHandlersPool]_block_invoke
+___copy_helper_block_.209
+___destroy_helper_block_.210
+-[VCRequestHandler removeFromRequestHandlersPool]
+___49-[VCRequestHandler removeFromRequestHandlersPool]_block_invoke
+___copy_helper_block_.214
+___destroy_helper_block_.215
+-[VCRequestHandler requestParameters]
+-[VCRequestHandler setRequestParameters:]
+-[VCRequestHandler preventRetry]
+-[VCRequestHandler setPreventRetry:]
+-[VCRequestHandler requestExecuter]
+-[VCRequestHandler setRequestExecuter:]
+-[VCRequestHandler parser]
+-[VCRequestHandler setParser:]
+-[VCRequestHandler requestDataTask]
+-[VCRequestHandler setRequestDataTask:]
+-[VCRequestHandler requestStartDate]
+-[VCRequestHandler setRequestStartDate:]
+-[VCRequestHandler successBlock]
+-[VCRequestHandler setSuccessBlock:]
+-[VCRequestHandler failureBlock]
+-[VCRequestHandler setFailureBlock:]
+-[VCRequestHandler numberOfSilentRetries]
+-[VCRequestHandler setNumberOfSilentRetries:]
+-[VCRequestHandler .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.35
+___block_descriptor_tmp.150
+___block_descriptor_tmp.178
+___block_descriptor_tmp.193
+___block_descriptor_tmp.200
+_requestHandlersPool.requestHandlersPool
+_requestHandlersPool.onceToken
+___block_descriptor_tmp.202
+___block_literal_global
+___block_descriptor_tmp.211
+___block_descriptor_tmp.216
+_OBJC_IVAR_$_VCRequestHandler._requestParameters
+_OBJC_IVAR_$_VCRequestHandler._preventRetry
+_OBJC_IVAR_$_VCRequestHandler._requestExecuter
+_OBJC_IVAR_$_VCRequestHandler._parser
+_OBJC_IVAR_$_VCRequestHandler._requestDataTask
+_OBJC_IVAR_$_VCRequestHandler._requestStartDate
+_OBJC_IVAR_$_VCRequestHandler._successBlock
+_OBJC_IVAR_$_VCRequestHandler._failureBlock
+_OBJC_IVAR_$_VCRequestHandler._numberOfSilentRetries
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/RequestHandlers/VCRequestHandler.m
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/RequestHandlers/VCRequestHandler.h
+__destroy_helper_block_
+__copy_helper_block_
+__49-[VCRequestHandler removeFromRequestHandlersPool]_block_invoke
+__44-[VCRequestHandler addToRequestHandlersPool]_block_invoke
+__39+[VCRequestHandler requestHandlersPool]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/dispatch/once.h
+__38-[VCRequestHandler performSilentRetry]_block_invoke
+__44-[VCRequestHandler showRetryPromptForError:]_block_invoke
+__50-[VCRequestHandler executeRequestSuccess:failure:]_block_invoke.151
+__50-[VCRequestHandler executeRequestSuccess:failure:]_block_invoke
+__48-[VCRequestHandler callFailureHanlderWithError:]_block_invoke
+__49-[VCRequestHandler callSuccessHanlderWithObject:]_block_invoke
++[VCMantleParserHelper dateFormatterWithFormat:]
++[VCMantleParserHelper dateTransformerForFormat:]
+___49+[VCMantleParserHelper dateTransformerForFormat:]_block_invoke
+___49+[VCMantleParserHelper dateTransformerForFormat:]_block_invoke.11
+___copy_helper_block_.14
+___destroy_helper_block_.15
++[VCMantleParserHelper stringToBoolTransformer]
+___47+[VCMantleParserHelper stringToBoolTransformer]_block_invoke
++[VCMantleParserHelper objectTransformerForObjectOfClass:]
++[VCMantleParserHelper arrayTransformerForArrayOfObjectcOfClass:]
++[VCMantleParserHelper transformerForObjectOfType:withPropertyType:]
+___68+[VCMantleParserHelper transformerForObjectOfType:withPropertyType:]_block_invoke
+___68+[VCMantleParserHelper transformerForObjectOfType:withPropertyType:]_block_invoke_2
++[VCMantleParserHelper dictionaryForPLISTFileNamed:]
++[VCMantleParserHelper JSONKeyPathsByPropertyKeyForClassName:]
++[VCMantleParserHelper keysDataTypesMapForClassName:]
+___block_descriptor_tmp.18
+___block_descriptor_tmp.42
+___block_descriptor_tmp.57
+___block_literal_global.58
+___block_descriptor_tmp.67
+___block_literal_global.68
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/VCMantleParserHelper.m
+__68+[VCMantleParserHelper transformerForObjectOfType:withPropertyType:]_block_invoke_2
+__68+[VCMantleParserHelper transformerForObjectOfType:withPropertyType:]_block_invoke
+__47+[VCMantleParserHelper stringToBoolTransformer]_block_invoke
+__49+[VCMantleParserHelper dateTransformerForFormat:]_block_invoke.11
+__49+[VCMantleParserHelper dateTransformerForFormat:]_block_invoke
++[VCJSONParser defaultParser]
+-[VCJSONParser parseObjectOfType:fromJSONResponse:error:]
+-[VCJSONParser jsonDictionaryForObject:error:]
+l_OBJC_PROTOCOL_$_JSONParser
+l_OBJC_LABEL_PROTOCOL_$_JSONParser
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/VCJSONParser.m
++[NSDate(Iso8601) dateFormatter]
+___32+[NSDate(Iso8601) dateFormatter]_block_invoke
++[NSDate(Iso8601) dateWithIso8601String:]
+-[NSDate(Iso8601) iso8601String]
+_dateFormatter.onceToken
+_dateFormatter.dateFormatter
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/NSDate+Iso8601.m
+__32+[NSDate(Iso8601) dateFormatter]_block_invoke
++[NSObject(AQProperties) hasProperties]
++[NSObject(AQProperties) hasPropertyNamed:]
++[NSObject(AQProperties) hasPropertyNamed:ofType:]
++[NSObject(AQProperties) hasPropertyForKVCKey:]
++[NSObject(AQProperties) typeOfPropertyNamed:]
++[NSObject(AQProperties) getterForPropertyNamed:]
++[NSObject(AQProperties) setterForPropertyNamed:]
++[NSObject(AQProperties) retentionMethodOfPropertyNamed:]
++[NSObject(AQProperties) propertyNames]
+-[NSObject(AQProperties) hasProperties]
+-[NSObject(AQProperties) hasPropertyNamed:]
+-[NSObject(AQProperties) hasPropertyNamed:ofType:]
+-[NSObject(AQProperties) hasPropertyForKVCKey:]
+-[NSObject(AQProperties) typeOfPropertyNamed:]
+-[NSObject(AQProperties) typeStringOfPropertyNamed:]
+-[NSObject(AQProperties) classForValueOfPropertyNamed:]
+-[NSObject(AQProperties) getterForPropertyNamed:]
+-[NSObject(AQProperties) setterForPropertyNamed:]
+-[NSObject(AQProperties) retentionMethodOfPropertyNamed:]
+-[NSObject(AQProperties) propertyNames]
+_property_getTypeString.buffer
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/NSObject+Properties/NSObject+Properties.m
+property_getRetentionMethod
+property_getSetter
+property_getGetter
+property_getTypeString
++[VCRequestHandlerParameters requestHandlerParametersForServiceEndPoint:servicePath:forClassType:]
+-[VCRequestHandlerParameters init]
++[VCRequestHandlerParameters encodedURLForURL:]
+-[VCRequestHandlerParameters requestURL]
+-[VCRequestHandlerParameters encodeWithCoder:]
+-[VCRequestHandlerParameters initWithCoder:]
++[VCRequestHandlerParameters appendLanguageAndSerializationAttributesToURL:langID:]
+-[VCRequestHandlerParameters serviceEndPoint]
+-[VCRequestHandlerParameters setServiceEndPoint:]
+-[VCRequestHandlerParameters servicePath]
+-[VCRequestHandlerParameters setServicePath:]
+-[VCRequestHandlerParameters requestMethod]
+-[VCRequestHandlerParameters setRequestMethod:]
+-[VCRequestHandlerParameters postBodyFormat]
+-[VCRequestHandlerParameters setPostBodyFormat:]
+-[VCRequestHandlerParameters requestBodyParameters]
+-[VCRequestHandlerParameters setRequestBodyParameters:]
+-[VCRequestHandlerParameters requestTimeOutInterval]
+-[VCRequestHandlerParameters setRequestTimeOutInterval:]
+-[VCRequestHandlerParameters isRequestNeedsAuthentication]
+-[VCRequestHandlerParameters setIsRequestNeedsAuthentication:]
+-[VCRequestHandlerParameters expectedModelClass]
+-[VCRequestHandlerParameters setExpectedModelClass:]
+-[VCRequestHandlerParameters requestHttpHeaders]
+-[VCRequestHandlerParameters setRequestHttpHeaders:]
+-[VCRequestHandlerParameters .cxx_destruct]
+_OBJC_IVAR_$_VCRequestHandlerParameters._serviceEndPoint
+_OBJC_IVAR_$_VCRequestHandlerParameters._servicePath
+_OBJC_IVAR_$_VCRequestHandlerParameters._requestMethod
+_OBJC_IVAR_$_VCRequestHandlerParameters._postBodyFormat
+_OBJC_IVAR_$_VCRequestHandlerParameters._requestBodyParameters
+_OBJC_IVAR_$_VCRequestHandlerParameters._requestTimeOutInterval
+_OBJC_IVAR_$_VCRequestHandlerParameters._isRequestNeedsAuthentication
+_OBJC_IVAR_$_VCRequestHandlerParameters._expectedModelClass
+_OBJC_IVAR_$_VCRequestHandlerParameters._requestHttpHeaders
+l_OBJC_PROTOCOL_$_NSCoding
+l_OBJC_LABEL_PROTOCOL_$_NSCoding
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/RequestHandlers/VCRequestHandlerParameters.m
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/RequestHandlers/VCRequestHandlerParameters.h
++[WebServiceEndPoint serviceEndPointForURL:defaultHttpHeaders:]
+-[WebServiceEndPoint encodeWithCoder:]
+-[WebServiceEndPoint initWithCoder:]
+-[WebServiceEndPoint baseServiceURL]
+-[WebServiceEndPoint setBaseServiceURL:]
+-[WebServiceEndPoint defaultHTTPHeadaers]
+-[WebServiceEndPoint setDefaultHTTPHeadaers:]
+-[WebServiceEndPoint .cxx_destruct]
+_OBJC_IVAR_$_WebServiceEndPoint._baseServiceURL
+_OBJC_IVAR_$_WebServiceEndPoint._defaultHTTPHeadaers
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/NetworkConfiguration/WebServiceEndPoint.m
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/NetworkConfiguration/WebServiceEndPoint.h
+-[NSError(AFNetworkErrors) urlFailureResponseData]
+-[NSError(AFNetworkErrors) httpResponse]
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/HTTPRequestExecuter/NSError+AFNetworkErrors.m
+-[VCNetworkEvent init]
+-[VCNetworkEvent requestTime]
+-[VCNetworkEvent URL]
+-[VCNetworkEvent setURL:]
+-[VCNetworkEvent httpMethod]
+-[VCNetworkEvent setHttpMethod:]
+-[VCNetworkEvent responseCode]
+-[VCNetworkEvent setResponseCode:]
+-[VCNetworkEvent bytesSent]
+-[VCNetworkEvent setBytesSent:]
+-[VCNetworkEvent bytesReceived]
+-[VCNetworkEvent setBytesReceived:]
+-[VCNetworkEvent responseTime]
+-[VCNetworkEvent setResponseTime:]
+-[VCNetworkEvent parsingTime]
+-[VCNetworkEvent setParsingTime:]
+-[VCNetworkEvent .cxx_destruct]
+_OBJC_IVAR_$_VCNetworkEvent._URL
+_OBJC_IVAR_$_VCNetworkEvent._httpMethod
+_OBJC_IVAR_$_VCNetworkEvent._responseCode
+_OBJC_IVAR_$_VCNetworkEvent._bytesSent
+_OBJC_IVAR_$_VCNetworkEvent._bytesReceived
+_OBJC_IVAR_$_VCNetworkEvent._responseTime
+_OBJC_IVAR_$_VCNetworkEvent._parsingTime
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/NetworkEvents/VCNetworkEvent.m
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/NetworkEvents/VCNetworkEvent.h
++[VCHTTPRequestExecuter defaultHTTPExecuter]
+___44+[VCHTTPRequestExecuter defaultHTTPExecuter]_block_invoke
+-[VCHTTPRequestExecuter init]
+-[VCHTTPRequestExecuter setHttpHeaders:]
+-[VCHTTPRequestExecuter cleanupDataTasks]
+-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]
+___144-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]_block_invoke
+___144-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]_block_invoke.82
+___copy_helper_block_.83
+___destroy_helper_block_.84
+___144-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]_block_invoke.87
+___copy_helper_block_.88
+___destroy_helper_block_.89
+-[VCHTTPRequestExecuter sessionManager]
+-[VCHTTPRequestExecuter setSessionManager:]
+-[VCHTTPRequestExecuter runningDataTasks]
+-[VCHTTPRequestExecuter setRunningDataTasks:]
+-[VCHTTPRequestExecuter .cxx_destruct]
+_defaultHTTPExecuter.sharedInstance
+_defaultHTTPExecuter.onceToken
+___block_descriptor_tmp.81
+___block_descriptor_tmp.86
+___block_descriptor_tmp.91
+_OBJC_IVAR_$_VCHTTPRequestExecuter._sessionManager
+_OBJC_IVAR_$_VCHTTPRequestExecuter._runningDataTasks
+l_OBJC_PROTOCOL_$_HTTPRequestExecuter
+l_OBJC_LABEL_PROTOCOL_$_HTTPRequestExecuter
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/HTTPRequestExecuter/VCHTTPRequestExecuter.m
+__144-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]_block_invoke.87
+__144-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]_block_invoke.82
+__144-[VCHTTPRequestExecuter executeRequest:httpMethod:requestTimeOutInterval:parameters:postBodyFormat:httpHeaders:completionQueue:success:failure:]_block_invoke
+__44+[VCHTTPRequestExecuter defaultHTTPExecuter]_block_invoke
+-[NSString(AQPropertyKVC) propertyStyleString]
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/NSObject+Properties/NSString+PropertyKVC.m
+-[AbstractModel description]
+/Users/peter.mosaad/Desktop/Foodora/Testing/Frameworks/Networking/Networking/Networking/MantleParsing/AbstractModel.m
+/Users/peter.mosaad/Library/Developer/Xcode/DerivedData/Frameworks-gbmkmzmprjiovyacjykmpfcydvae/Build/Intermediates/Networking.build/Release-iphoneos/Networking.build/DerivedSources/Networking_vers.c
