@@ -291,6 +291,7 @@
 				0E5070E51EB8D61D00CBEF2D /* Frameworks */,
 				0E5070E61EB8D61D00CBEF2D /* Headers */,
 				0E5070E71EB8D61D00CBEF2D /* Resources */,
+				0E5071781EB8F46B00CBEF2D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -372,6 +373,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5071781EB8F46B00CBEF2D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Mantle.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E5070E41EB8D61D00CBEF2D /* Sources */ = {
@@ -590,6 +609,7 @@
 				0E5070FF1EB8D61D00CBEF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E5071001EB8D61D00CBEF2D /* Build configuration list for PBXNativeTarget "NetworkingTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +618,7 @@
 				0E5071021EB8D61D00CBEF2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
